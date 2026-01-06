@@ -1,0 +1,68 @@
+/* Mengatur reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Background Halaman - Warna Pink sesuai gambar */
+body {
+    background-color: #f016d2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container utama */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Kartu Putih */
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Ukuran bisa disesuaikan */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Gambar Poster di dalam kartu */
+.image-wrapper img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+}
+
+/* Bagian bawah untuk tombol */
+.footer-card {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Tombol Coklat */
+.btn-shop {
+    background-color: #8b6d45; /* Warna coklat sesuai gambar */
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
+    transition: background 0.3s ease;
+}
+
+/* Efek saat tombol diarahkan kursor */
+.btn-shop:hover {
+    background-color: #6d5535;
+}
